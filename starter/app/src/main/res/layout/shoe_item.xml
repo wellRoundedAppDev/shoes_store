@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shoe_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/shoe_name_item"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+
+        android:id="@+id/shoe_company_item"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+
+        android:id="@+id/shoe_size_item"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/shoe_desc_item"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        />
+
+</LinearLayout>
